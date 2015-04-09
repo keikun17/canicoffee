@@ -20,7 +20,7 @@ tick = ->
     end_first_coffee_cycle = _woke.add(5.5, 'hours')
 
     _woke = woke_up_at.clone()
-    start_second_coffee_cycle = _woke.add(7.5, 'hours')
+    start_second_coffee_cycle = _woke.add(6.5, 'hours')
     _woke = woke_up_at.clone()
     end_second_coffee_cycle = _woke.add(11, 'hours')
 
@@ -28,8 +28,8 @@ tick = ->
     window.now = now
 
     document.getElementById('recommendations').style.visibility = 'visible'
-    document.getElementById('first_coffee_cycle').innerHTML = "#{start_first_coffee_cycle.format('hh::mm a')} to #{end_first_coffee_cycle.format('hh::mm a') }"
-    document.getElementById('second_coffee_cycle').innerHTML = "#{start_second_coffee_cycle.format('hh::mm a')} to #{end_second_coffee_cycle.format('hh::mm a') }"
+    document.getElementById('first_coffee_cycle').innerHTML = "#{start_first_coffee_cycle.format('hh:mm a')} to #{end_first_coffee_cycle.format('hh:mm a') }"
+    document.getElementById('second_coffee_cycle').innerHTML = "#{start_second_coffee_cycle.format('hh:mm a')} to #{end_second_coffee_cycle.format('hh:mm a') }"
   else
     document.getElementById('recommendations').style.visibility = 'hidden'
 
