@@ -3094,11 +3094,11 @@
         woke_up_at = woke_up_at.subtract(1, 'day');
       }
       _woke = woke_up_at.clone();
-      start_first_coffee_cycle = _woke.add(3, 'hours');
+      start_first_coffee_cycle = _woke.add(3.5, 'hours');
       _woke = woke_up_at.clone();
       end_first_coffee_cycle = _woke.add(5.5, 'hours');
       _woke = woke_up_at.clone();
-      start_second_coffee_cycle = _woke.add(6.5, 'hours');
+      start_second_coffee_cycle = _woke.add(7.5, 'hours');
       _woke = woke_up_at.clone();
       end_second_coffee_cycle = _woke.add(11, 'hours');
       window.woke_up_at = woke_up_at.format();
