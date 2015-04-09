@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+/* line 11, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
+html, body {
+  height: 100%; }
+
+/* line 14, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
+a {
+  color: #F83264;
+  text-decoration: none; }
+
+/* line 18, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
+h1 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  -webkit-font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
+  -moz-font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
+  -ms-font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
+  font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh"; }
+
+/* line 27, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
+#clock {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-blox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: column;
+  font-family: "Source Sans Pro", sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  /* line 44, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
+  #clock input#wake {
+    font-size: 1em;
+    font-family: "Source Sans Pro", sans-serif; }
+
+/* line 49, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
+#recommendations {
+  visibility: hidden;
+  font-family: "Source Sans Pro", sans-serif;
+  font-language-override: normal;
+  font-kerning: auto;
+  font-synthesis: weight style; }
+
+/* line 60, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
+.words {
+  font-family: "Playfair Display", serif; }
+  /* line 62, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
+  .words span {
+    display: block; }
+
+/* line 65, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent); }
