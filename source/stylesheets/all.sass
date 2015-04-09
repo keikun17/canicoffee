@@ -19,10 +19,6 @@ h1
   font-family: $main-font
   font-style: italic
   @include font-feature("kern", "liga", "dlig", "hlig", "cswh")
-  // line-heigt: 1.1em !important
-
-h4
-  // line-height: 1.1em !important
 
 #clock
   height: 100%
@@ -45,6 +41,9 @@ h4
     font-size: 1em
     font-family: $sub-font
 
+  hr
+    width: 35%
+
 
 #recommendations
   visibility: hidden
@@ -56,6 +55,9 @@ h4
   font-language-override: normal
   font-kerning: auto
   font-synthesis: weight style
+
+  hr
+    width: 100%
 
 .words
   font-family: $main-font

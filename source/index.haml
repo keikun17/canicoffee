@@ -1,22 +1,26 @@
 #clock
-  %div
-    %h1 Best time to drink Coffee
-    %h4 
-      Based on 
-      = link_to "I<3Coffee.jp", 'http://en.ilovecoffee.jp/posts/view/110'
+  %h1 Best time to drink Coffee
+
+  %subtitle
+    Based on
+    = link_to "I<3Coffee.jp", 'http://en.ilovecoffee.jp/posts/view/110'
+
+  %hr
+
+  %p
     The time now is
     %span#timenow
 
-  %div
+  %p
     What time did you wake up?
     %input#wake{type: 'time'}
 
   %div#recommendations
     %hr
-    %div
+    %p
       Your first coffee cycle is
       %span#first_coffee_cycle
-    %div
+    %p
       Your second coffee cycle is
       %span#second_coffee_cycle
 
