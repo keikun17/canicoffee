@@ -1,0 +1,51 @@
+@import 'mediaquery'
+@import 'mixins'
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700)
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic)
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300)
+
+$main-font: 'Playfair Display', serif
+$sub-font: 'Source Sans Pro', sans-serif
+
+html, body
+  height: 100%
+
+#clock
+  height: 100%
+  padding: 0
+  margin: 0
+  display: -webkit-box
+  display: -ms-flexbox
+  display: -moz-blox
+  display: -webkit-flex
+  display: flex
+
+  flex-flow: column
+  font-family: $sub-font
+
+  align-items: center
+  justify-content: center
+  text-align: center
+
+  input#wake
+    font-size: 1em
+    // font-family: $sub-font
+
+
+#recommendations
+  display: none
+  font-family: $sub-font
+  // font-style: italic
+
+  // @include font-feature("kern", "liga", "dlig", "hlig", "cswh")
+
+  font-language-override: normal
+  font-kerning: auto
+  font-synthesis: weight style
+
+.words
+  font-family: $main-font
+  span
+    display: block
+
