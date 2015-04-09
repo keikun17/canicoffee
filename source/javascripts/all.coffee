@@ -22,7 +22,7 @@ tick = ->
     _woke = woke_up_at.clone()
     start_second_coffee_cycle = _woke.add(7.5, 'hours')
     _woke = woke_up_at.clone()
-    end_second_coffee_cycle = _woke.add(12, 'hours')
+    end_second_coffee_cycle = _woke.add(11, 'hours')
 
     window.woke_up_at = woke_up_at.format()
     window.now = now
