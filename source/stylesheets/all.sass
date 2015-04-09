@@ -11,6 +11,19 @@ $sub-font: 'Source Sans Pro', sans-serif
 html, body
   height: 100%
 
+a
+  color: #F83264
+  text-decoration: none
+
+h1
+  font-family: $main-font
+  font-style: italic
+  @include font-feature("kern", "liga", "dlig", "hlig", "cswh")
+  // line-heigt: 1.1em !important
+
+h4
+  // line-height: 1.1em !important
+
 #clock
   height: 100%
   padding: 0
