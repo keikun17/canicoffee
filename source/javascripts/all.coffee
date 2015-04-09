@@ -27,9 +27,11 @@ tick = ->
     window.woke_up_at = woke_up_at.format()
     window.now = now
 
-    document.getElementById('recommendations').style.display = 'block'
+    document.getElementById('recommendations').style.visibility = 'visible'
     document.getElementById('first_coffee_cycle').innerHTML = "#{start_first_coffee_cycle.format('hh::mm a')} to #{end_first_coffee_cycle.format('hh::mm a') }"
     document.getElementById('second_coffee_cycle').innerHTML = "#{start_second_coffee_cycle.format('hh::mm a')} to #{end_second_coffee_cycle.format('hh::mm a') }"
+  else
+    document.getElementById('recommendations').style.visibility = 'hidden'
 
 
 ticker = setInterval(tick, 1000)
