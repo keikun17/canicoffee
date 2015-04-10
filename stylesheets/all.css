@@ -94,17 +94,21 @@ h1 {
     width: 35%; }
 
 /* line 48, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
+.coffee {
+  color: #662222; }
+
+/* line 51, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
 #recommendations {
   visibility: hidden;
   font-family: "Source Sans Pro", sans-serif;
   font-language-override: normal;
   font-kerning: auto;
   font-synthesis: weight style; }
-  /* line 56, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
+  /* line 59, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
   #recommendations hr {
     width: 100%; }
 
-/* line 59, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
+/* line 62, /Users/Valerian/Projects/canicoffee/source/stylesheets/all.sass */
 hr {
   border: 0;
   height: 1px;
